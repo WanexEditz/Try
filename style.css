@@ -1,0 +1,262 @@
+body , ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #ddd;
+    padding: 10px 16px;
+    transition: 500ms;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-size: 15px;
+    transition: 500ms;
+}
+.navbar li i{
+    font-size: 20px;
+}
+.navbar li:hover{
+    transition: 500ms;
+    color: #8a2be2;
+}
+.nav2{
+    background-color: white;
+    color: #000;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+.bg{
+    background: url(https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro_di__bhdsomdb7p4y_large_2x.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg .text-bg{
+    color: #fff;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.text-bg h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.text-bg h3{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.info a{
+    color: #2997ff;
+    margin: 0px 15px;
+}
+
+.bg-2{
+    background: url(https://www.apple.com/v/home/ay/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-2 .text-bg-2{
+    color: #000;
+    text-align: center;
+}
+.info-2{
+    text-align: center;
+}
+.text-bg-2 h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.text-bg-2 h3{
+    font-size: 40px;
+}
+
+.info-2 a{
+    color: #2997ff;
+    margin: 0px 15px
+}
+.card{
+    background: url(https://www.apple.com/v/home/ay/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_medium_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: left;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+.card h5{
+    color: red;
+    margin: 0px;
+}
+.card h3{
+    color: #fff;
+}
+.card-2{
+    background: url(https://www.apple.com/v/home/ay/images/promos/watch-black-unity/promo_bhm__d8b9z5rlwjgy_medium_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: right;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-2 h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+.card-2 h3{
+    color: #fff;
+}
+.card-3{
+    background: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_small_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: left;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-3 h1{
+    color: #000;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+.card-3 h3{
+    color: #000;
+}
+.card-4{
+    background: url(https://www.apple.com/v/home/ay/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_small_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: right;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-4 h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+.card-4 h3{
+    color: #fff;
+}
+.card-5{
+    background: url(https://www.apple.com/v/home/ay/images/promos/homepod/promo_homepod__f7jnolq94m2y_small_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: left;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-5 h1{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+}
+.card-5 h3{
+    color: #fff;
+}
+.card-6{
+    background: url(https://www.apple.com/v/home/ay/images/promos/apple-card/tile__cauwwcyyn9hy_small_2x.jpg);
+    width: 600px;
+    height: 600px;
+    background-position: right;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-6 h1{
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.main{
+    display: flex;
+}
+.main-2{
+    display: flex;
+}
+.main-3{
+    display: flex;
+}
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer h4{
+    font-size: 13px;
+    color: #6e6e73;
+}
+hr{
+    color: whitesmoke;
+}
+.class .black{
+    color: #000;
+    margin-top: 35px;
+}
+.class-2 .black{
+    color: #000;
+    margin-top: 35px;
+}
+.clas{
+    display: flex;
+    justify-content: space-between;
+}
+.class-3 .black{
+    color: #000;
+    margin-top: 35px;
+}
+.class-4 .black{
+    color: #000;
+    margin-top: 35px;
+}
+.class-5 .black{
+    color: #000;
+    margin-top: 35px;
+}
+.down{
+    margin-top: 35px;
+}
+.margin{
+    margin-top: -34.5px;
+    margin-left: 980px;
+}
+
+
